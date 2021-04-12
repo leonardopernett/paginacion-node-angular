@@ -1,0 +1,15 @@
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name":"stella",
+  "lastname":"gallego",
+  "email":"a@gmail.com"
+}
+
+###
+GET http://localhost:3000/users?page=3
+Content-Type: application/json
+
+
